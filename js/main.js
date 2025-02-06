@@ -11,7 +11,7 @@ var typed = new Typed("#element", {
 window.addEventListener("scroll", () => {
   const navbar = document.getElementById("navbar");
 
-  if (window.scrollY > 870) {
+  if (window.scrollY > 700) {
     navbar.classList.add("scrolled");
   } else {
     navbar.classList.remove("scrolled");
